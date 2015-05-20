@@ -1,3 +1,23 @@
+---
+language: ruby
+rvm: 2.0.0
+cache: bundler
+services:
+- pg
+branches:
+  except:
+    - production
+env:
+  global:
+  -CODECLIMATE_API_HOST=http://localhost:3000/ bundle exec rake
+  - CODECLIMATE_REPO_TOKEN=869f7061c95b18b37f3784fffc51647303728b4e976fee78e75ba00d1d3b97fa
+script: bundle exec rspec
+notifications:
+  webhooks:
+    urls:
+      - http://localhost//3000
+sudo: false
+
 addons:
     code_climate:
         repo_token: 869f7061c95b18b37f3784fffc51647303728b4e976fee78e75ba00d1d3b97fa
