@@ -1,4 +1,4 @@
-dependencies:
-  bundler:
-    without:
-      - development
+# dependencies:
+#   bundler:
+#     without:
+#       - development
