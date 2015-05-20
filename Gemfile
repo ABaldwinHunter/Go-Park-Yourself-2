@@ -19,6 +19,7 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'geocoder'
 
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -53,6 +54,7 @@ gem 'rails_12factor', group: :production
 
 gem 'byebug', group: :development
 
+gem "codeclimate-test-reporter", group: :test, require: nil
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

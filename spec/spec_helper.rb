@@ -1,3 +1,5 @@
+require "codeclimate-test-reporter"
+CodeClimate::TestReporter.start
 require 'factory_girl_rails'
 # require 'webmock/rspec'
 # WebMock.disable_net_connect!(allow_localhost: true)
