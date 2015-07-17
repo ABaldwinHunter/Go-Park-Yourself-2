@@ -1,9 +1,4 @@
 ---
-engines:
-  rubocop:
-    enabled: true
-  eslint:
-    enabled: true
 ratings:
   paths:
   - "**.rb"
